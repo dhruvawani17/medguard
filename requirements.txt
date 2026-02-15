@@ -7,7 +7,7 @@ pdf2image
 presidio-analyzer
 presidio-anonymizer
 spacy
-# Use headless OpenCV to avoid "libGL" errors
+# CRITICAL FIX: Use the headless version for Streamlit Cloud
 opencv-python-headless
-# Download spaCy model directly
+# SpaCy model direct download (prevents memory crashes)
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
